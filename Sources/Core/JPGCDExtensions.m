@@ -68,4 +68,4 @@ void JPDispatchAfterTimeIntervalInSecond(NSTimeInterval timeInterval, void (^blo
 int64_t jp_dispatch_benchmark(size_t count, void (^block)(void)) {
     return dispatch_benchmark(count, block);
 }
-#ifdef DEBUG
+#endif
