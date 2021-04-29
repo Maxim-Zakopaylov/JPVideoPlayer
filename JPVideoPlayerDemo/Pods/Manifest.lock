@@ -7,9 +7,10 @@ DEPENDENCIES:
   - Masonry
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
-    - JPNavigationController
+  https://github.com/CocoaPods/Specs.git:
     - Masonry
+  trunk:
+    - JPNavigationController
 
 SPEC CHECKSUMS:
   JPNavigationController: f174edc3572edd9cd60cc65b51a14b6d75e47e9a
@@ -17,4 +18,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: ba245dcff116910af192aa836652567e077cd9c7
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.10.0
